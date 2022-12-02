@@ -286,7 +286,8 @@ doc["aitetris"].bind("click", aitetris.do)
 <p>老師在這週用了跟以往都不同的方式來連線到cmsimde的靜態網頁。</p>
 <p>雖然因為Replit分配給免費帳戶的容量只有500MB的關係，每個人所能夠執行的命令有限。</p>
 <p>但也足夠讓我們體驗利用Replit伺服器來架設cmsimde網站。</p>
-<p>跟以往只能用可攜來執行cmsimde來比還要簡單的多。</p><h1>stud.cycu.org</h1>
+<p>跟以往只能用可攜來執行cmsimde來比還要簡單的多。</p>
+<h1>stud.cycu.org</h1>
 <p><span data-contrast="auto"><span>git config --global http.proxy </span></span><span data-contrast="auto"><span>http://p42.cycu.org:3128</span></span><span> </span><span data-contrast="auto"><span> </span></span><span> </span></p>
 <p><span data-contrast="auto"><span>git config --global user.name "name"</span></span><span> </span></p>
 <p><span data-contrast="auto"><span>git config --global user.email "email"</span></span><span> </span></p>
@@ -305,3 +306,7 @@ doc["aitetris"].bind("click", aitetris.do)
 <p><span data-contrast="auto"><span>exit 推出 login</span></span><span> </span></p>
 <!-- editor2 結束 -->
 <h2>心得2</h2>
+<p><span>這週開始，老師利用一台 Ubuntu 虛擬主機建立各學員帳號, 並且利用雙埠號派送方式 (內部為 9xxxx, 外部為 8xxxx), 讓各學員得以利用此伺服器來推送改版資料。</span></p>
+<p><span>因為replit網站給予免費帳戶只有500MB容量，所以只夠我們體驗改版標題，推上去動態網站，之後就沒有空間做其他項目了。</span></p>
+<p><span>之後</span><span>以 ssh-keygen 建立 private and public keys, 存放於 .ssh 目錄下, 以 sftp 取下 id_rsa.pub 放入 Github 後, 就可以利用 SSH 對 Github 倉儲改版.此次改版跟之前的Token不同，是利用ssh金鑰來連接靜態及動態網站，及對網頁做改版。</span></p>
+<h1><span>W8</span></h1>
